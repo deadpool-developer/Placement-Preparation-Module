@@ -38,7 +38,7 @@ class TUF {
             }
         }
         // return res -> this is also correct
-        return low;
+        return res;
     }
     public static void main(String args[]) {
         ArrayList < Integer > A = new ArrayList < > ();

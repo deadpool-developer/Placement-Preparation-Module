@@ -39,7 +39,7 @@ class Solution {
       vis[i][j] = 0;
     }
   }
-  public static ArrayList < String > findPath(int[][] m, int n) {
+  public ArrayList < String > findPath(int[][] m, int n) {
     int vis[][] = new int[n][n];
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n; j++) {
